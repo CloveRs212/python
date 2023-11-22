@@ -14,6 +14,9 @@ class PlayerCharacter:
     def adding_things(cls, num1, num2):
         return num1 + num2
 
+    def speak(self):
+        print(f'My name is {self.name}, and i am {self.age} years old')
+
 
 player1 = PlayerCharacter('Carl', 44)
 player2 = PlayerCharacter('Tommy', 23)
